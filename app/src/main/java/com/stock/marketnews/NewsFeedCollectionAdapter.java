@@ -66,7 +66,7 @@ public class NewsFeedCollectionAdapter extends RecyclerView.Adapter<NewsFeedColl
         holder.sourceTextView.setText(episode.getSource());
         holder.summaryTextView.setText(episode.getSummary());
         holder.relatedKeywords.setText(episode.getRelated());
-        TextView textView = createTextViewForRelated("UEUR");
+        TextView textView = createTextViewForRelated(episode.getRelated());
         if (textView != null) {
             holder.relatedLinearLayout.addView(textView);
         }
