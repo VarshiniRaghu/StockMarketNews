@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.stock.marketnews.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/login_page_headers"
+            android:text="@string/login_heading" />
+
+        <TextView
+            android:id="@+id/login_error_display"
+            style="@style/login_page_error_text"
+            android:text="@string/login_details_blank_display"
+            android:visibility="gone" />
+
+        <TextView
+            style="@style/login_page_headers"
+            android:text="@string/user_name_text" />
+
+        <EditText
+            android:id="@+id/userName"
+            style="@style/login_page_edit_text_style"
+            android:hint="@string/user_name_hint" />
+
+        <TextView
+            style="@style/login_page_headers"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/login_page_edit_text_style"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setButtonClick"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorWhite"
+            android:text="@string/login_button" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

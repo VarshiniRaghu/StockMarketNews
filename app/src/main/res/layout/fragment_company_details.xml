@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_details_header"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <LinearLayout android:id="@+id/company_name_layout"
+        style="@style/company_details_layout">
+
+        <TextView
+            style="@style/company_details_heading_text"
+            android:text="@string/company_name" />
+
+        <TextView android:id="@+id/company_name"
+            style="@style/company_details_text"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/exchange_layout"
+        style="@style/company_details_layout">
+
+        <TextView
+            style="@style/company_details_heading_text"
+            android:text="@string/exchange" />
+
+        <TextView android:id="@+id/exchange"
+            style="@style/company_details_text"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/company_website_layout"
+        style="@style/company_details_layout">
+
+        <TextView
+            style="@style/company_details_heading_text"
+            android:text="@string/company_website" />
+
+        <TextView android:id="@+id/company_website"
+            style="@style/company_details_text"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ceo_layout"
+        style="@style/company_details_layout">
+
+        <TextView
+            style="@style/company_details_heading_text"
+            android:text="@string/ceo" />
+
+        <TextView android:id="@+id/ceo"
+            style="@style/company_details_text"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/sector_layout"
+        style="@style/company_details_layout">
+
+        <TextView
+            style="@style/company_details_heading_text"
+            android:text="@string/sector" />
+
+        <TextView android:id="@+id/sector"
+            style="@style/company_details_text"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/description"
+        style="@style/company_details_desciption"/>
+</LinearLayout>

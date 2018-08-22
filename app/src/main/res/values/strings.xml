@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StockMarketNews</string>
+    <string name="login_heading">Enter Login details</string>
+    <string name="user_name_text">User Name</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="register_success_display">Registed Successfully</string>
+    <string name="login_failed_display"> * Username and password doesnot match</string>
+    <string name="login_details_blank_display"> * Please enter both username and password to login</string>
+    <string name="news_feed_source">Source</string>
+    <string name="news_feed_related">Related</string>
+    <string name="company_details_header">Company Details</string>
+    <string name="company_name">Company Name</string>
+    <string name="exchange">Exchange</string>
+    <string name="company_website">Company website</string>
+    <string name="ceo">CEO</string>
+    <string name="sector">Sector</string>
+
+</resources>
